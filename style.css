@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main{
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(37, 37, 37);
+
+}
+
+.wrapper{
+    margin: auto;
+    width: 50%;
+    padding: 2em;
+    border: 1px solid whitesmoke;
+}
+
+.header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+#city-input{
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    border: 1px solid black;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+}
+
+#btn{
+    font-family: 'PT Serif', serif;
+    color: black;
+    align-self: center;
+    width: 10rem;
+    height: 2rem;
+    border-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}
+
+
+.temperature{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color:rgb(37, 37, 37);
+
+}
+
+.title{
+    font-size: 0.7rem;
+    
+}
+
+
+.current-temperature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#current-temperature{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+.emoji{
+    font-size: 3.5rem;
+    padding-top: 1rem;
+}
+
+#subtitle{
+    margin-top: 0;
+    padding: 0 0 1em 0;
+    font-weight: 700;
+}
+
+.extra-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-self: center;  
+}
+
+@media (min-width:800px){
+
+.header{
+    font-size: 3rem;
+}
+.extra-details{
+    width: 80%;
+}
+
+}
